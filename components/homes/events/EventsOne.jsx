@@ -17,7 +17,7 @@ export default function EventsOne() {
         <div className="row y-gap-15 justify-between items-end">
           <div className="col-lg-6">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Upcoming Events</h2>
+              <h2 className="sectionTitle__title ">Upcoming Scholarship</h2>
 
               <p className="sectionTitle__text ">
                 Lorem ipsum dolor sit amet, consectetur.
@@ -121,7 +121,7 @@ export default function EventsOne() {
                               href={`/events/${elm.id}`}
                               className="button -sm -rounded -purple-1 text-white px-25"
                             >
-                              Buy
+                              Early Apply
                             </Link>
                           </div>
                         </div>
@@ -140,7 +140,7 @@ export default function EventsOne() {
               href="/event-list-1"
               className="button -icon -outline-purple-1 text-purple-1 fw-500"
             >
-              View All Events
+              View All Scholarship
               <span className="icon-arrow-top-right text-14 ml-10"></span>
             </Link>
           </div>

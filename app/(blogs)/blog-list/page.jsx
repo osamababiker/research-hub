@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function page() {
   return (
-    <div className="main-content  ">
+    <div className="main-content">
       <Preloader/>
 
         <Header/>

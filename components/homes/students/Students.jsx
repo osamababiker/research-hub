@@ -17,7 +17,7 @@ export default function Students() {
         <div className="row y-gap-15 justify-between items-end">
           <div className="col-lg-6">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Top Students</h2>
+              <h2 className="sectionTitle__title ">Accepted Students</h2>
 
               <p className="sectionTitle__text ">
                 Lorem ipsum dolor sit amet, consectetur.
@@ -106,13 +106,6 @@ export default function Students() {
                           ))}
                         </div>
 
-                        <div className="teamCard-tags pt-20">
-                          {elm.tags.map((itm, index) => (
-                            <div key={index} className="teamCard-tags__item">
-                              <div className="teamCard-tags__tag">{itm}</div>
-                            </div>
-                          ))}
-                        </div>
 
                         <div className="teamCard__button mt-20">
                           <a

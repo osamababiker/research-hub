@@ -15,8 +15,8 @@ export default function About() {
 
                 <div>
                   <p className="page-header__text">
-                    We’re on a mission to deliver engaging, curated courses at a
-                    reasonable price.
+                  Lorem ipsum is placeholder text
+commonly used in the graphic, print, and publishing
                   </p>
                 </div>
               </div>
@@ -58,25 +58,26 @@ export default function About() {
 
             <div className="col-lg-5">
               <h2 className="text-30 lh-16">
-                Welcome to Educrat Enhance your skills with best Online courses
+              Lorem ipsum is placeholder text commonly used 
               </h2>
               <p className="text-dark-1 mt-30">
-                You can start and finish one of these popular courses in under a
-                day – for free! Check out the list below.. Take the course for
-                free
+              Lorem ipsum is placeholder text
+              commonly used in the graphic, print, and publishing
               </p>
               <p className="pr-50 lg:pr-0 mt-25">
-                Neque convallis a cras semper auctor. Libero id faucibus nisl
-                tincidunt egetnvallis a cras semper auctonvallis a cras semper
-                aucto. Neque convallis a cras semper auctor. Liberoe convallis a
-                cras semper atincidunt egetnval
+              Lorem ipsum is placeholder text
+              commonly used in the graphic, print, and publishing
+              Lorem ipsum is placeholder text
+              commonly used in the graphic, print, and publishing 
+              Lorem ipsum is placeholder text
+              commonly used in the graphic, print, and publishing
               </p>
               <div className="d-inline-block">
                 <Link
                   href="/signup"
                   className="button -md -purple-1 text-white mt-30"
                 >
-                  Start Learning For Free
+                  Apply for scholarship now
                 </Link>
               </div>
             </div>

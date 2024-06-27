@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 const SearchToggle = ({ allClasses, color }) => {
   const [activeSearch, setActiveSearch] = useState(false);
   return (
@@ -49,38 +49,6 @@ const SearchToggle = ({ allClasses, color }) => {
                 </button>
               </div>
 
-              <div className="header-search__content mt-30">
-                <div className="text-17 text-dark-1 fw-500">
-                  Popular Right Now
-                </div>
-
-                <div className="d-flex y-gap-5 flex-column mt-20">
-                  <Link href={`/courses/${5}`} className="text-dark-1">
-                    The Ultimate Drawing Course - Beginner to Advanced
-                  </Link>
-                  <Link href="/courses-single-2/3" className="text-dark-1">
-                    Character Art School: Complete Character Drawing Course
-                  </Link>
-                  <Link href="/courses-single-3/3" className="text-dark-1">
-                    Complete Blender Creator: Learn 3D Modelling for Beginners
-                  </Link>
-                  <Link href="/courses-single-4/3" className="text-dark-1">
-                    User Experience Design Essentials - Adobe XD UI UX Design
-                  </Link>
-                  <Link href="/courses-single-5/3" className="text-dark-1">
-                    Graphic Design Masterclass - Learn GREAT Design
-                  </Link>
-                  <Link href="/courses-single-6/3" className="text-dark-1">
-                    Adobe Photoshop CC – Essentials Training Course
-                  </Link>
-                </div>
-
-                <div className="mt-30">
-                  <button className="uppercase underline">
-                    PRESS ENTER TO SEE ALL SEARCH RESULTS
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
           <div

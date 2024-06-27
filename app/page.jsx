@@ -7,9 +7,7 @@ import FindLearningPath from '@/components/homes/FindLearningPath'
 import LearningSolutions from '../components/homes/LearningPath/LearningSolutions'
 import EventsOne from '@/components/homes/events/EventsOne'
 import CategoriesTwo from '@/components/homes/categories/CategoriesTwo'
-import Students from '@/components/homes/students/Students'
-import BecomeInstactor from '@/components/common/BecomeInstactor'
-import BecomeStudent from '../components/common/BecomeStudent'
+import Students from '@/components/homes/students/Students' 
 import Brands from '@/components/common/Brands'
 
 import FooterTwo from '@/components/layout/footers/FooterTwo'
@@ -30,12 +28,10 @@ export default function page() {
         <HeroTwo/>
         <CoursesThree/>
         <FindLearningPath/>
-        <LearningSolutions/>
+        <LearningSolutions/> 
         <EventsOne/>
         <CategoriesTwo/>
         <Students/>
-        <BecomeInstactor/>
-        <BecomeStudent/>
         <Brands/>
         <FooterTwo/>
 

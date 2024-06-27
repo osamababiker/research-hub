@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export default function PageLinks({ dark }) {
+export default function PageLinks({ dark }) { 
   return (
     <section className={`breadcrumbs ${dark ? "bg-dark-1" : ""} `}>
       <div className="container">

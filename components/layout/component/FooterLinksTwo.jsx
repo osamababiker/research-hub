@@ -13,7 +13,7 @@ export default function FooterLinksTwo({ allClasses, parentClass }) {
                 {itm.label}
               </Link>
             ))}
-          </div>
+          </div> 
         </div>
       ))}
     </>

@@ -38,11 +38,11 @@ export default function HeaderTwo() {
               <div className="d-flex x-gap-40 y-gap-10 items-center">
                 <div className="d-flex items-center text-white md:d-none">
                   <div className="icon-email mr-10"></div>
-                  <div className="text13 lh-1">(00) 242 844 39 88</div>
+                  <div className="text13 lh-1">+123 456 789</div>
                 </div>
                 <div className="d-flex items-center text-white">
                   <div className="icon-email mr-10"></div>
-                  <div className="text13 lh-1">hello@educrat.com</div>
+                  <div className="text13 lh-1">hi@ResearchHub.com</div>
                 </div>
               </div>
             </div>

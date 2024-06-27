@@ -5,7 +5,7 @@ export const steps = [
     title: "01. Learn",
     text: "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa aliqua.",
   },
-  {
+  { 
     id: 2,
     icon: "icon-graduation-1 text-64 text-green-1",
     title: "02. Graduate",
@@ -23,7 +23,7 @@ export const stepsTwo = [
   {
     id: 1,
     imageSrc: "/assets/img/home-3/works/1.svg",
-    text: "Browse courses from our expert contributors.",
+    text: "Browse scholarships from the best universites.",
   },
   {
     id: 2,

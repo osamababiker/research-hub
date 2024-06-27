@@ -8,7 +8,7 @@ export default function CategoriesTwo() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Top Categories</h2>
+              <h2 className="sectionTitle__title ">Scholarships Categories</h2>
 
               <p className="sectionTitle__text ">
                 Lorem ipsum dolor sit amet, consectetur.

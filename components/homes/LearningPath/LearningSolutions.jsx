@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import Image from "next/image";
 import React, { useEffect } from "react";
-import { learningPath } from "../../../data/learningPaths";
+import { learningPath } from "../../../data/learningPaths"; 
 export default function LearningSolutions() {
   useEffect(() => {
     const parallaxIt = () => {
@@ -17,7 +17,7 @@ export default function LearningSolutions() {
           document.addEventListener("mousemove", (e) => {
             const relX = e.pageX - container.offsetLeft;
             const relY = e.pageY - container.offsetTop;
-
+ 
             gsap.to(el, {
               x:
                 ((relX - container.offsetWidth / 2) / container.offsetWidth) *
@@ -41,12 +41,12 @@ export default function LearningSolutions() {
         <div className="row y-gap-30 items-center">
           <div className="col-lg-6 order-2 order-lg-1">
             <h2 className="text-45 lg:text-40 md:text-30 text-dark-1">
-              Online learning solutions
-              <br className="xl:d-none" /> that meet your needs.
+              The Begist 
+              <br className="xl:d-none" /> lab scholarship platform .
             </h2>
             <p className="text-dark-1 mt-20">
-              Use the list below to bring attention to your product’s key
-              <br className="lg:d-none" /> differentiator.
+              What make us different
+              <br className="lg:d-none" /> 
             </p>
 
             <div className="row y-gap-30 pt-60 lg:pt-40">
@@ -59,7 +59,7 @@ export default function LearningSolutions() {
                       }`}
                     >
                       <Image
-                        width={40}
+                        width={40} 
                         height={40}
                         src={elm.iconSrc && elm.iconSrc}
                         alt="icon"
@@ -115,27 +115,12 @@ export default function LearningSolutions() {
                   alt="icon"
                 />
                 <div className="ml-20">
-                  <div className="text-dark-1 text-16 fw-500 lh-1">
-                    Ali Tufan
+                  <div className="mt-3">
+                  <div className="text-orange-1 text-16 fw-500 lh-1">
+                    3.000 +
                   </div>
-                  <div className="mt-3">UX/UI Designer</div>
-                  <div className="d-flex x-gap-5 mt-3">
-                    <div>
-                      <div className="icon-star text-yellow-1 text-11"></div>
-                    </div>
-                    <div>
-                      <div className="icon-star text-yellow-1 text-11"></div>
-                    </div>
-                    <div>
-                      <div className="icon-star text-yellow-1 text-11"></div>
-                    </div>
-                    <div>
-                      <div className="icon-star text-yellow-1 text-11"></div>
-                    </div>
-                    <div>
-                      <div className="icon-star text-yellow-1 text-11"></div>
-                    </div>
-                  </div>
+                  <div className="mt-3"> Monthly active users  </div>
+                </div>
                 </div>
               </div>
 
@@ -155,7 +140,7 @@ export default function LearningSolutions() {
                   <div className="text-orange-1 text-16 fw-500 lh-1">
                     3.000 +
                   </div>
-                  <div className="mt-3">Free Courses</div>
+                  <div className="mt-3"> Available Scholarship</div>
                 </div>
               </div>
 
@@ -172,12 +157,12 @@ export default function LearningSolutions() {
                       alt="icon"
                     />
                   </div>
-                </div>
+                </div> 
                 <div className="">
                   <div className="text-purple-1 text-16 fw-500 lh-1">
-                    Congrats!
+                    Successffully 
                   </div>
-                  <div className="mt-3">Your Admission Completed</div>
+                  <div className="mt-3"> Accepted students </div>
                 </div>
               </div>
             </div>

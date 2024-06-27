@@ -37,8 +37,8 @@ export default function FooterTwo() {
               <Image
                 width={140}
                 height={50}
-                src="/assets/img/footer/footer-logo.svg"
-                alt="logo"
+                src="/assets/img/footer/logo.svg"
+                alt="logo" 
               />
             </div>
 
@@ -48,13 +48,13 @@ export default function FooterTwo() {
                   Toll Free Customer Care
                 </div>
                 <div className="text-18 lh-1 fw-500 text-white mt-5">
-                  +(1) 123 456 7890
+                  +123 456 7890
                 </div>
               </div>
               <div className="">
                 <div className="text-white opac-70">Need live support?</div>
                 <div className="text-18 lh-1 fw-500 text-white mt-5">
-                  hi@educrat.comv
+                  hi@ResearchHub.com
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function FooterTwo() {
           <div className="row justify-between items-center y-gap-20">
             <div className="col-auto">
               <div className="d-flex items-center h-100 text-white">
-                © {new Date().getFullYear()} Educrat. All Right Reserved.
+                © {new Date().getFullYear()} Research Hub. All Right Reserved.
               </div>
             </div>
 
